@@ -4,7 +4,7 @@
 }
 #areatitle {
     width:400px;
-    height:32px;
+    height:34px;
     display:flex;
     flex-wrap:wrap;
     flex-direction:row;
