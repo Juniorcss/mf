@@ -1,0 +1,75 @@
+* {
+    margin:0;
+    padding:0;
+}
+#areatitle {
+    width:400px;
+    height:32px;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    background-color:rgb(58, 129, 30);
+}
+#title {
+    font-family:'Noto Sans JP', sans-serif;
+    font-variant:small-caps;
+    font-size:22px;
+    color:rgb(0, 255, 0);
+}
+#areaitems {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+    width:400px;
+    height:24px;
+    background-color:rgb(48, 105, 26); 
+}
+.items:link {
+    font-family:'RocknRoll One', sans-serif;
+    font-size:14px;
+    text-decoration:none;
+    color:rgb(49, 255, 49);
+    margin:3px;
+    opacity:75%;
+    transition:opacity 1s;
+    transition-timing-function: linear;
+}
+.items:visited {
+    color:rgb(49, 255, 49);
+}
+.items:hover { 
+    opacity:100%;
+}
+.items:active {
+    color:rgb(61, 255, 61);
+}
+#areaexibir {
+    background-color: rgb(48, 105, 26); 
+    border-style:none;
+}
+.conttable {
+    width:390px;
+    height:90px;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.dia {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-variant:small-caps;
+    font-size:20px;
+    color:rgb(0, 218, 0);
+    margin-bottom:5px;
+}
+.programa {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-variant:small-caps;
+    font-size:20px;
+    color:rgb(0, 255, 0);
+}
