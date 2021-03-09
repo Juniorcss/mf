@@ -74,12 +74,12 @@
     color:rgb(0, 255, 0);
 }
 @media screen and (min-width: 768px) {
-    .items {
+    .items a {
         font-size:14px;       
     }
 }
 @media screen and (max-width: 736px) {
-    .items {
+    .items a {
        font-size:9px;     
     }
 }
