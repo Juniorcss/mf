@@ -74,22 +74,26 @@
     color:rgb(0, 255, 0);
 }
 @media screen and (min-width: 768px) {
-    .items a {
-        font-size:14px;       
+     #areaitems a {
+        font-size:14px; 
+        text-align:center;
     }
 }
 @media screen and (max-width: 736px) {
-    .items a {
-       font-size:9px;     
+     #areaitems a {
+       font-size:9px; 
+       text-align:center;
     }
 }
 @media screen and (min-width: 768px) {
     #title {
-        font-size:14px;       
+        font-size:14px; 
+        text-align:center;
     }
 }
 @media screen and (max-width: 736px) {
     #title  {
-       font-size:19px;     
+       font-size:19px; 
+       text-align:center;
     }
 }
